@@ -1,0 +1,72 @@
+/* CSS for Personal Website */
+body {
+  background-color: rgb(176,230,250) /* powderblue */
+}
+
+h1 {
+  color: black;
+  font-family: calibri, sans-serif;
+  font-size: 3.0em;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+
+}
+
+p {
+  color: black;
+  font-family: calibri, sans-serif;
+  font-size: 1.1em;
+  max-width: 80%;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+.firstp {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+hr {
+  border: 0;
+  margin: 1.5em 0 .5em 0;
+  height: 1px;
+  background: gray;
+}
+
+a {
+  font-size: 1.0em;
+}
+
+a:link, a:visited {
+  color: rgb(0, 0, 255);
+  font-family: Helvetica;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(0, 0, 200);
+  /* background-color: rgb(186,234,240); */
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a.rel {
+  color: rgb(0, 100, 230);
+  font-size: .8em;
+  text-decoration: overline;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+a.rel:hover {
+  color: rgb(0, 50, 180);
+  text-decoration: overline;
+}
